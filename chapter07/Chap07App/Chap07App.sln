@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap07App", "Chap07App\Chap07App.csproj", "{E34E30B7-0A67-409A-99C4-D9D2174C2A25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap07App", "Chap07App\Chap07App.csproj", "{E34E30B7-0A67-409A-99C4-D9D2174C2A25}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalTestApp", "CalTestApp\CalTestApp.csproj", "{D44AF889-ED63-4775-AE1A-40A86137EE27}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticTestApp", "StaticTestApp\StaticTestApp.csproj", "{E735C758-533A-4C1D-8ED8-33D7D18FDDCF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifierTestApp", "AccessModifierTestApp\AccessModifierTestApp.csproj", "{9C22344E-F98E-43F8-AEA3-7BF5905EB6FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritTestApp", "InheritTestApp\InheritTestApp.csproj", "{6FA7AFB4-F4A2-4956-8C2D-DD2F4CB94D80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassTypeCastApp", "ClassTypeCastApp\ClassTypeCastApp.csproj", "{618230EF-B07C-4511-B911-D9E70F0202F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideTestApp", "OverrideTestApp\OverrideTestApp.csproj", "{682E2B16-A208-4C0B-8071-E6803CB562DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClassApp", "PartialClassApp\PartialClassApp.csproj", "{5E3D1B62-AFC2-4594-A766-41D1B18C1499}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{9C22344E-F98E-43F8-AEA3-7BF5905EB6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C22344E-F98E-43F8-AEA3-7BF5905EB6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C22344E-F98E-43F8-AEA3-7BF5905EB6FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA7AFB4-F4A2-4956-8C2D-DD2F4CB94D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA7AFB4-F4A2-4956-8C2D-DD2F4CB94D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA7AFB4-F4A2-4956-8C2D-DD2F4CB94D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA7AFB4-F4A2-4956-8C2D-DD2F4CB94D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{618230EF-B07C-4511-B911-D9E70F0202F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618230EF-B07C-4511-B911-D9E70F0202F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618230EF-B07C-4511-B911-D9E70F0202F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618230EF-B07C-4511-B911-D9E70F0202F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682E2B16-A208-4C0B-8071-E6803CB562DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682E2B16-A208-4C0B-8071-E6803CB562DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682E2B16-A208-4C0B-8071-E6803CB562DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682E2B16-A208-4C0B-8071-E6803CB562DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3D1B62-AFC2-4594-A766-41D1B18C1499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3D1B62-AFC2-4594-A766-41D1B18C1499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3D1B62-AFC2-4594-A766-41D1B18C1499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3D1B62-AFC2-4594-A766-41D1B18C1499}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
