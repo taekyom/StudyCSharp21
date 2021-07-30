@@ -13,7 +13,7 @@ namespace AddressBookApp
         public void PrintMenu()  
         {
             // 메뉴 출력
-            Console.WriteLine("콘솔 전화번호부 프로그램");
+            Console.WriteLine("※ 주소록 프로그램 ※");
             Console.WriteLine("----------------------------------------");
             Console.WriteLine("　1. 주소 입력");
             Console.WriteLine("　2. 주소 검색");
