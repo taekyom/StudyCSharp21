@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace AddressBookApp
 {
@@ -15,48 +18,50 @@ namespace AddressBookApp
                 };
 
                 DataFileManager fileManager = new DataFileManager();
-                manager.listaddress = fileManager.ReadData();
+                manager.listaddress = fileManager.ReadData();    // ReadData의 결과값을 listaddress로 보내줌
 
-                while (true) //무한반복
+                while (true)
                 {
                     Console.Clear();
-                    manager.Printmenu();
+                    manager.PrintMenu();
                     int menuNum = manager.SelectMenu();
 
                     switch (menuNum)
                     {
-                        /*case 0: //메뉴선택 실패, 메뉴로 돌아감
-                            break;*/
-                        case 1: //주소입력 화면 전환
+                        case 1:    // 주소 입력 화면 전환
                             Console.Clear();
                             manager.InputAddress();
                             break;
 
-                        case 2: //주소 검색
+                        case 2:    // 주소 검색
                             Console.Clear();
                             manager.SearchAddress();
                             break;
 
-                        case 3: //주소 수정
+                        case 3:    // 주소 수정
                             Console.Clear();
                             manager.UpdateAddress();
                             break;
 
-                        case 4: //주소 삭제
+                        case 4:    // 주소 삭제
                             Console.Clear();
                             manager.DeleteAddress();
                             break;
 
-                        case 5: //주소 전체출력
+                        case 5:    // 주소 전체 출력
                             Console.Clear();
                             manager.PrintAllAddress();
                             break;
 
-                        case 6: //프로그램 종료
+                        case 6:    // 종료
+                                   // 주소록을 다시 파일에 씀
                             fileManager.WriteData(manager.listaddress);
+                            Console.WriteLine("프로그램이 종료됩니다.");
                             Environment.Exit(0);
                             break;
-                        default: //0은 여기서 처리, 아무 로직 없음
+
+                        default:   // 다른 값이나 0은 디폴트로 처리 
+                                   // 아무 로직 없음
                             break;
                     }
                 }
