@@ -1,6 +1,6 @@
-# StudyCSharp
+## StudyCSharp
+#### 📏 C#이란? <br/>
 
-C# 학습 리포지토리
 
 ## Basic C#
 
