@@ -60,7 +60,6 @@ namespace HelloWorld
 - [데이터를 가공하는 연산자](https://github.com/taekyom/StudyCSharp21/tree/main/chapter04/Chap04App)
 - [코드 흐름 제어](https://github.com/taekyom/StudyCSharp21/tree/main/chapter05/Chap05App)
 - [배열, 컬렉션, 인덱서](https://github.com/taekyom/StudyCSharp21/tree/main/chapter10/Chapter10)
-<br/> 
  
 #### 📏 C# 고급문법<br/>
 - [메서드](https://github.com/taekyom/StudyCSharp21/tree/main/chapter06/Chap06App)
@@ -74,7 +73,9 @@ namespace HelloWorld
 - [문자열과 파일 처리](https://github.com/taekyom/StudyCSharp21/tree/main/chapter18/Chap18App)
 - [thread와 task](https://github.com/taekyom/StudyCSharp21/tree/main/chapter19/Chap19App)
 - [WinForm](https://github.com/taekyom/StudyCSharp21/tree/main/chapter20/Chap20APP)
-<br/><br/>
+<br/>
+
+-------------------------------
 
 #### 📏 C# 실습과제<br/>
 [주소록 프로그램 전체소스](https://github.com/taekyom/StudyCSharp21/tree/main/chapter99/AddressBookApp)<br/>
